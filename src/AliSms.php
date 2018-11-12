@@ -1,5 +1,5 @@
 <?php
-namespace Shuliuzhenhua\AliSms;
+namespace Shuliuzhenhua;
 
 use Mrgoon\AliyunSmsSdk\Autoload;
 use Mrgoon\AliyunSmsSdk\DefaultAcsClient;
@@ -47,7 +47,7 @@ class AliSms
         $request->setSignName($signName);
         $request->setTemplateCode($template_code);
 
-        // 可选如果短信模板中包含变量则用需要传入数组
+        // 可选如果短信模板中包含变量则用需要
         if ($data) {
             $request->setTemplateParam(json_encode($data));
         }
