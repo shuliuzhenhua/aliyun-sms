@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e374d776480e19c3f5e288a7ae886a82",
+    "packages": [
+        {
+            "name": "mrgoon/aliyun-sms-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MissMyCat/aliyun-sms-sdk.git",
+                "reference": "5c8863dce9643fb46180520586bb8d1362e52d7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MissMyCat/aliyun-sms-sdk/zipball/5c8863dce9643fb46180520586bb8d1362e52d7f",
+                "reference": "5c8863dce9643fb46180520586bb8d1362e52d7f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mrgoon\\AliyunSmsSdk\\": "aliyun-php-sdk-core/",
+                    "Mrgoon\\Dysmsapi\\Request\\V20170525\\": "Dysmsapi/Request/V20170525"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "mrgoon",
+                    "email": "mrgoon@foxmail.com"
+                }
+            ],
+            "description": "阿里云短信服务核心代码",
+            "keywords": [
+                "Aliyun-Sms",
+                "aliyun",
+                "sdk"
+            ],
+            "time": "2017-10-19T08:33:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">5.3"
+    },
+    "platform-dev": []
+}

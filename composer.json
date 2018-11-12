@@ -1,0 +1,15 @@
+{
+  "name": "shuliuzhenhua/aliyun-sms",
+  "description": "简单的阿里云发送短信",
+  "require": {
+    "php": ">5.3",
+    "mrgoon/aliyun-sms-sdk": ">=1.1.2"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Shuliuzhenhua\\AliSms\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
