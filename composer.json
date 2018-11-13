@@ -8,7 +8,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Shuliuzhenhua\\AliSms\\": "src/"
+      "Shuliuzhenhua\\": "src/"
     }
   },
   "minimum-stability": "dev"
